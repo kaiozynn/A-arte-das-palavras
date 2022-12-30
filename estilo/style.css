@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font0: Arial, Verdana, sans-serif;
+    --fontDestaque: 'Passion One', cursive;
+    --font2: 'Dancing Script', cursive;
+}
+
+body {
+    background-color: lightgray;
+    font-family: var(--font0);
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    padding-top: 60px;
+    font-family: var(--fontDestaque);
+    font-size: 9vw;
+    font-variant: small-caps;
+}
+
+header p {
+    padding-bottom: 60px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background-color: white;
+    padding: 10vh 0 10vh 30px;
+    height: auto;
+}
+
+section > p{
+    font-family: var(--font2);
+    font-size: 6vw;
+    line-height: 1.5em;
+}
+
+.normal > p {
+    padding-bottom: 1em;
+}
+
+.imagem {
+    display: flex;
+    height: 60vw;
+    background: lightgray center center fixed;
+    background-size: cover;
+    align-items: center;
+}
+
+#img1 > p{
+    display: inline-block;
+    color: white;
+    width: 83%;
+    background-color: rgba(41, 41, 41, 0.481);
+    padding: 10px;
+}
+
+#img2 > p {
+    display: inline-block;
+    color: white;
+    width: 68%;
+    background-color: rgba(41, 41, 41, 0.481);
+    padding: 10px;
+}
+
+#img1 {
+    background-image: url('../imagens/background002.jpg');
+}
+
+#img2 {
+    background-image: url('../imagens/galaxia.webp');
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 1.4em;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
